@@ -30,24 +30,11 @@
   <body style="font-family: 'Lato', sans-serif">
     <header class="max-w-screen-lg mx-auto">
       <!-- nav section -->
-      <nav class="navbar bg-[#F85559] my-4 px-8 rounded-full">
+      <nav class="navbar bg-[#F85559] my-3 px-8 rounded-full">
         <div class="navbar-satrt nav-s w-[40%]">
           <div class="dropdown">
             <label tabindex="0" class="btn btn-ghost lg:hidden">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="h-5 w-5"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M4 6h16M4 12h8m-8 6h16"
-                />
-              </svg>
+              <i class="fa-solid fa-bars text-3xl text-white "></i>
             </label>
             <ul
               tabindex="0"
@@ -70,7 +57,7 @@
         </div>
 
         <div
-          class="sm:navbar-start md:justify-end w-auto lg:flex justify-center gap-2 text-white items-center font-bold"
+          class="w-[100%] md:w-[100%] md:flex justify-end lg:justify-center gap-2 text-white items-center font-bold"
         >
           <img src="images/logo.png" alt="" />
           <h1 class="text-3xl">Fruit Burst</h1>
@@ -89,15 +76,18 @@
           </div>
         </div>
       </nav>
+
+      <!-- jfgfgjf;gljfggfgj[pfdg] -->
+
       <!-- banner section -->
       <div class="w-full relative">
         <div class="-z-40 carousel w-full">
           <!-- slider-1 -->
           <div id="slide1" class="carousel-item h-auto relative w-full">
             <div>
-              <img class="w-full h-auto relative" src="images/banner1.png" alt="" />
+              <img class="w-full h-full relative" src="images/banner1.png" alt="" />
               <div
-                class="absolute space-y-4 flex flex-col justify-center items-center w-full bg-slate-950/60 top-0 left-0 h-auto"
+                class="absolute space-y-4 flex flex-col justify-center h-full items-center w-full bg-slate-950/60 top-0 left-0"
               >
                 <h1 class="text-3xl md:text-4xl lg:text-5xl text-center font-extrabold text-white">
                   Exotic tastes at your <br />
@@ -125,11 +115,11 @@
             <div
               class="absolute space-y-4 flex flex-col justify-center items-center w-full bg-slate-950/75 top-0 left-0 h-full"
             >
-              <h1 class="text-5xl text-center font-extrabold text-white">
+              <h1 class="text-3xl md:text-4xl lg:text-5xl text-center font-extrabold text-white">
                 Exotic tastes at your <br />
                 doorstep
               </h1>
-              <p style="word-spacing: 6px; opacity: 07" class="text-white">
+              <p lg:style="word-spacing: 6px; opacity: 07" class="text-white">
                 We supply highly quality organic products
               </p>
               <button class="primary-btn">Shop Now</button>
@@ -150,11 +140,11 @@
             <div
               class="absolute space-y-4 flex flex-col justify-center items-center w-full bg-slate-950/60 top-0 left-0 h-full"
             >
-              <h1 class="text-5xl text-center font-extrabold text-white">
+              <h1 class="text-3xl md:text-4xl lg:text-5xl text-center font-extrabold text-white">
                 Exotic tastes at your <br />
                 doorstep
               </h1>
-              <p style="word-spacing: 6px; opacity: 07" class="text-white">
+              <p lg:style="word-spacing: 6px; opacity: 07" class="text-white">
                 We supply highly quality organic products
               </p>
               <button class="primary-btn">Shop Now</button>
@@ -175,11 +165,11 @@
             <div
               class="absolute space-y-4 flex flex-col justify-center items-center w-full bg-slate-950/60 top-0 left-0 h-full"
             >
-              <h1 class="text-5xl text-center font-extrabold text-white">
+              <h1 class="text-3xl md:text-4xl lg:text-5xl text-center font-extrabold text-white">
                 Exotic tastes at your <br />
                 doorstep
               </h1>
-              <p style="word-spacing: 6px; opacity: 07" class="text-white">
+              <p lg:style="word-spacing: 6px; opacity: 07" class="text-white">
                 We supply highly quality organic products
               </p>
               <button class="primary-btn">Shop Now</button>
@@ -225,10 +215,11 @@
       </div>
     </header>
 
+    <!-- main section -->
     <main class="max-w-screen-lg mx-auto">
       
       <!-- fruit cards -->
-      <section class="mt-52 mb-24">
+      <section class="mb-24 mt-14 md:mt-14 lg:mt-52 ">
         <div class="flex flex-col p-6 md:flex-col md:p-6 lg:justify-between lg:flex-row">
           <div>
             <h1 class="text-3xl font-bold text-center md:text-center lg:text-left">Deal of the day</h1>
@@ -735,7 +726,7 @@
         </div>
       </section>
     </main>
-    
+
     <!-- footer section -->
     <footer
       class="footer footer-center p-10 bg-black text-white text-base-content rounded"
