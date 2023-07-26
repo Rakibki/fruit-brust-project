@@ -1,0 +1,19 @@
+.primary-btn {
+    background-color: #F85559;
+    color: white;
+    border-radius: 5px;
+    padding: 9px 20px 10px 20px;
+    font-weight: bold;
+
+}
+
+
+
+.modalCloseBtn {
+    padding: 9px 20px 10px 20px;
+    color: #F85559;
+    border-radius: 5px;
+    border: 1px solid #F85559;
+    font-weight: bold;
+
+}
